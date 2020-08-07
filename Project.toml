@@ -1,0 +1,13 @@
+name = "ExamplePackage"
+uuid = "70e21bf9-1d2f-43a6-99ef-5f299171cd60"
+authors = ["uniment <68589942+uniment@users.noreply.github.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
